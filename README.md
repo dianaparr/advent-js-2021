@@ -20,3 +20,22 @@ Para saber si una carta es válida ✅, debes comprobar que los paréntesis cier
 ¡Pero ojo! Porque el Grinch ha dejado llaves { y corchetes [ dentro de los paréntesis que hacen que no sean válidas. Por suerte sólo los ha dejado en medio de los paréntesis...
 
 Crea una función que pasándole el texto de la carta, devuelva true si es válida y false si no lo es. ¡Y acaba con la travesura del Grinch!
+
+## Diciembre 4/2021
+¡Es hora de poner el árbol de navidad en casa! 🎄
+
+Para ello vamos a crear una función que recibe la altura del árbol, que será un entero positivo del 1 a, como máximo, 100.
+
+____*____
+___***___
+__*****__
+_*******_
+*********
+____#____
+____#____
+
+Creamos un triángulo de asteríscos * con la altura proporcionada y, a los lados, usamos el guión bajo _ para los espacios. Es muy importante que nuestro árbol siempre tenga la misma longitud por cada lado.
+
+Todos los árboles, por pequeños o grandes que sean, tienen un tronco de dos líneas de #.
+
+Ten en cuenta que el árbol es un string y necesitas los saltos de línea \n para cada línea para que se forme bien el árbol.
