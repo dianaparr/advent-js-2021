@@ -1,6 +1,6 @@
 function createXmasTree(height) {
   // ¡Y no olvides también poner los turrones!
-    const width = ((height - 1) * 2) + 1;
+    const width = ((height - 1) * 2) + 1; // ((height * 2) - 1);
     let tree = '';
     for (let balls = 1, line = 1; line <= height; line++, balls+=2) {
         const asteriskLine = '*'.repeat(balls);
