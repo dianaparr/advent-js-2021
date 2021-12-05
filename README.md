@@ -26,13 +26,13 @@ Crea una función que pasándole el texto de la carta, devuelva true si es váli
 
 Para ello vamos a crear una función que recibe la altura del árbol, que será un entero positivo del 1 a, como máximo, 100.
 
-____*____
-___***___
-__*****__
-_*******_
-*********
-____#____
-____#____
+`____*____`
+`___***___`
+`__*****__`
+`_*******_`
+`*********`
+`____#____`
+`____#____`
 
 Creamos un triángulo de asteríscos * con la altura proporcionada y, a los lados, usamos el guión bajo _ para los espacios. Es muy importante que nuestro árbol siempre tenga la misma longitud por cada lado.
 
