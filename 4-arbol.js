@@ -4,7 +4,7 @@ function createXmasTree(height) {
     let tree = '';
     for (let balls = 1, line = 1; line <= height; line++, balls+=2) {
         const asteriskLine = '*'.repeat(balls);
-        const underlineLine = underline.repeat((width - asteriskLine.length) / 2);
+        const underlineLine = '_'.repeat((width - asteriskLine.length) / 2);
         tree += underlineLine + asteriskLine + underlineLine + '\n';
     };
     for (let index = 1; index < 3; index++) {
