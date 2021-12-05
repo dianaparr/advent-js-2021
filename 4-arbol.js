@@ -8,9 +8,8 @@ function createXmasTree(height) {
         tree += underlineLine + asteriskLine + underlineLine + '\n';
     };
     for (let index = 1; index < 3; index++) {
-        const hashLine = '#'.repeat(1);
-        const underlineLine = '_'.repeat((width - hashLine.length) / 2);
-        tree += underlineLine + hashLine + underlineLine + '\n';
+        const underlineLine = '_'.repeat((width - 1) / 2);
+        tree += underlineLine + '#' + underlineLine + '\n';
     };
     return tree.substring(0, tree.length - 1);
 };
