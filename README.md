@@ -40,7 +40,7 @@ Todos los árboles, por pequeños o grandes que sean, tienen un tronco de dos l�
 
 Ten en cuenta que el árbol es un string y necesitas los saltos de línea \n para cada línea para que se forme bien el árbol.
 
-# Diciembre 5/2021
+## Diciembre 5/2021
 Con la emoción, ya estamos empezando a contar los días del calendario hasta el 25 de diciembre 📆.
 
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de `Date` nos diga el número de días que faltan.
@@ -50,3 +50,16 @@ El resultado tiene que ser un número entero y, como ves, aunque falte un segund
 ¡Pero ojo! También hay que indicar si la fecha es del mismo día (devolveríamos `0`) o si es una fecha futura (devolveríamos el número de días en negativo `-`).
 
 Por cierto, la fecha de referencia para saber si es 25 de diciembre es Dec 25, 2021.
+
+## Diciembre 6/2021
+Antes de poder disfrutar de la navidad... nos toca terminar de rematar los exámenes finales. ¡Y toca un poco de matemáticas! 😱
+
+A una función se le pasan dos parámetros: un Array con números y el resultado que se espera.
+
+La función debe devolver los dos valores del Array que sumen el resultado esperado. Como a veces pueden haber más de dos valores que sumen, se devolverá el primero empezando por la izquierda que encuentre otro par, sin importar lo lejos que esté a la derecha.
+
+Si no se encuentra, se devuelve `null`.
+
+El resultado tiene que ser un array con dos números.
+
+Una vez que tengas el resultado... ¿cómo podrías hacer que fuese lo más óptimo posible para no tener que recorrer las mismas situaciones dos veces 🤔?
